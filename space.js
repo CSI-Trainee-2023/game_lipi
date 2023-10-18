@@ -1,4 +1,3 @@
-
 //board
 let tileSize = 32;
 let rows = 16;
@@ -208,3 +207,5 @@ function detectCollision(a, b) {
            a.y < b.y + b.height &&  //a's top left corner doesn't reach b's bottom left corner
            a.y + a.height > b.y;    //a's bottom left corner passes b's top left corner
 }
+
+
